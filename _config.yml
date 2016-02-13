@@ -1,0 +1,33 @@
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+
+# 作者信息
+author: 
+  name: Anson
+  email: actisonluo@gmail.com
+  link: http://anson666.top
+  weibo: http://weibo.com/ansonluo123
+  github: http://github.com/anson365
+
+# 站点信息
+title: Anson的博客
+description: Anson的博客
+url: http://anson666.top
+rss_url: /pages/atom.xml
+
+# avatar头像及Favicon
+avatar: http://7u2ho6.com1.z0.glb.clouddn.com/site-avatar.png
+favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+
+# google analytics 设置
+ga:
+  id: UA-54767140-1
+  url: http://anson666.top
+
+# disqus 设置
+disqus:
+  shortname: anson
