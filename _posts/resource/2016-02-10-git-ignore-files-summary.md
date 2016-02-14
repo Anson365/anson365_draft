@@ -1,6 +1,6 @@
 ---
 layout: post
-title: git提交时.ignore文件汇总
+title: git提交时.ignore文件内容汇总
 category: 资料
 tags: git
 description: ignore文件内容汇总
