@@ -34,20 +34,21 @@ git在程序员的日常开发中承担着程序托管、发布等作用。无�
 ##常用功能
 
 ###内容比较
-> 版本间比较：git diff <version1> <versiong2>
+> 版本间比较：git diff <version1> <versiong2>    
 > 本地与版本比较：git diff <version>
 
 ###提交信息及日志
 > git log
 
 ###内容还原
->还原到指定版本：git reset <version>
->指定文件还原到最新版本(内容回滚)：git checkout -- <file_name>
+>还原到指定版本：git reset <version>    
+>指定文件还原到最新版本(内容回滚)：    
+>   git checkout -- <file_name>
 
 ###撤销添加
->撤销add：git reset HEAD <file_name>
->撤销commit：
-    git reset --hard <commit_id>
-    git push origin HEAD --force
+>撤销add：git reset HEAD <file_name>       
+>撤销commit：    
+>   git reset --hard <commit_id>    
+>   git push origin HEAD --force
 
 
