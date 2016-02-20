@@ -22,14 +22,14 @@ Map<String,String> map = new HashMap<String,String>(a.size()*4/3+1) //a.size()è¿
      * An empty table instance to share when the table is not inflated.
      */
     static final Entry<?,?>[] EMPTY_TABLE = {};
-    ...
+    .  .  .
     
 
     /**
      * The table, resized as necessary. Length MUST Always be a power of two.
      */
     transient Entry<K,V>[] table = (Entry<K,V>[]) EMPTY_TABLE;
-    ...
+    .  .  .
     
     
     static class Entry<K,V> implements Map.Entry<K,V> {
@@ -37,7 +37,7 @@ Map<String,String> map = new HashMap<String,String>(a.size()*4/3+1) //a.size()è¿
         V value;
         Entry<K,V> next;
         int hash;
-        ...
+        .  .  .
     }
 
 ```    
