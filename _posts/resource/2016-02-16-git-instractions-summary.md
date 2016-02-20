@@ -42,5 +42,12 @@ git在程序员的日常开发中承担着程序托管、发布等作用。无�
 
 ###内容还原
 >还原到指定版本：git reset <version>
->指定文件还原到最新版本(内容回滚)：git checkout <file_name>
+>指定文件还原到最新版本(内容回滚)：git checkout -- <file_name>
+
+###撤销添加
+>撤销add：git reset HEAD <file_name>
+>撤销commit：
+    git reset --hard <commit_id>
+    git push origin HEAD --force
+
 
