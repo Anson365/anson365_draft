@@ -7,9 +7,10 @@ description: git 常用指令及情况汇总
 ---
 git在程序员的日常开发中承担着程序托管、发布等作用。无论是[github](http://github.com)、[gitlab](https://about.gitlab.com/)、[git@osc](http://git.oschina.net/)其中运用到的git指令都是一样的。
 文章是笔者学习工作中使用的git情况和解决方案，旨在总结方便查阅，同时加深对git的灵活运用，因此文章的内容会进行持续更新。当然对于未提及到或者有更优越的解决方案的情况，也欢迎大家留言探讨。
+    
 ##clone 
 1.普通clone（clone所有分支）
-> git clone &lt;repo
+> git clone &lt;repo&gt;
 
 2.仅clone指定分支
 > git clone -b &lt;branch_name&gt; &lt;repo&gt;
@@ -26,7 +27,7 @@ git在程序员的日常开发中承担着程序托管、发布等作用。无�
 > git branch &lt;branch_name&gt;
 
 4.删除分支
-> git branch -d &lt;branch_name>
+> git branch -d &lt;branch_name&gt;
 
 5.合并分支
 > git branch merge &lt;branch_name_need_merge_together&gt;
