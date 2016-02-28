@@ -10,51 +10,54 @@ git在程序员的日常开发中承担着程序托管、发布等作用。无�
     
 ## clone 
 1.普通clone（clone所有分支）
-> git clone &lt;repo&gt;
+```git clone <repo>```
 
 2.仅clone指定分支
-> git clone -b &lt;branch_name&gt; &lt;repo&gt;
+```git clone -b <branch_name> <repo>```
 
 ## branch    
 1.查看分支
-> 查看本地分支：git branch   
-> 查看远程分支：git branch -r
+查看本地分支：```git branch```   
+查看远程分支：```git branch -r```
 
 2.切换分支
-> git checkout &lt;branch_name&gt;
+```git checkout <branch_name>```
 
 3.创建分支
-> git branch &lt;branch_name&gt;
+```git branch <branch_name>```
 
 4.删除分支
-> git branch -d &lt;branch_name&gt;
+```git branch -d <branch_name>```
 
 5.合并分支
-> git branch merge &lt;branch_name_need_merge_together&gt;
+```git branch merge <branch_name_need_merge_together>```
 
 ## 常用功能
 
 ### 内容比较
 版本间比较：
-> git diff &lt;version1> &lt;versiong2&gt;
+```git diff <version1> <versiong2>```
 
 本地与版本比较：
-> git diff &lt;version&gt;
+```git diff <version>```
 
 ### 提交信息及日志
-> git log
+```git log```
 
 ### 内容还原
 还原到指定版本：
-> git reset &lt;version&gt;
+```git reset <version>```
 
 指定文件还原到最新版本(内容回滚)：
-> git checkout -- &lt;file_name&gt;
+```git checkout -- <file_name>```
 
 ### 撤销添加
 撤销add：    
-> git reset HEAD &lt;file_name&gt;    
+```git reset HEAD <file_name>```    
 
-撤销commit：
-> git reset --hard &lt;commit_id&gt;
-> git push origin HEAD --force
+撤销commit：   
+```git reset --hard <commit_id>```
+```git push origin HEAD --force```
+
+###更换提交协议 如将ssh转换成https   
+``` git remote set-url origin https://github.com/Anson365/xxxx.git```
