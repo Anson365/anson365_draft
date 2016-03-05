@@ -22,7 +22,7 @@ gitlab上的无法使用。顿时一千万个草泥马奔腾而来，后来发�
         gitlab_rsa & gitlab_rsa.pub    
 
 2.按照要求将XXX_rsa.pub中的内容放入对应的git服务器仓库中        
-3.然后进入ssh文件夹找到config，如果没有的话就自己创建一个
+3.然后进入ssh文件夹找到config，如果没有的话就自己创建一个    
 4.按照配置嵌入内容
  
     Host github   
