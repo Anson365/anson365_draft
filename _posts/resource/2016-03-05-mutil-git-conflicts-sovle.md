@@ -18,6 +18,7 @@ gitlab上的无法使用。顿时一千万个草泥马奔腾而来，后来发�
         github_rsa & github_rsa.pub      
      gitlab :   
         gitlab_rsa & gitlab_rsa.pub    
+
 2.按照要求将XXX_rsa.pub中的内容放入对应的git服务器仓库中        
 3.然后进入ssh文件夹找到config，如果没有的话就自己创建一个
 4.按照配置嵌入内容
@@ -27,6 +28,7 @@ gitlab上的无法使用。顿时一千万个草泥马奔腾而来，后来发�
     User anson365
     IdentityFile ~/.ssh/github_rsa
     ...
+   
    *根据具体的git进行添加*
 好的 大功告成，以后github就是github的账号，其他git就是其他的配置了。
 
