@@ -62,7 +62,7 @@ $('#mobile-avatar').on('click', function(){
 $(document).pjax('#avatar, #mobile-avatar, .pl__all', '#pjax', { fragment: '#pjax', timeout: 10000 });
 $(document).on({
   'pjax:click': function() {
-    content.removeClass('fadeIn').addClass('fadeOut');
+    content.removeClass('fadeOut').addClass('fadeIn');
     NProgress.start();
   },
   'pjax:start': function() {
