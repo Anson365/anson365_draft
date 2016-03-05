@@ -61,3 +61,7 @@ git在程序员的日常开发中承担着程序托管、发布等作用。无�
 
 ###更换提交协议 如将ssh转换成https   
 ``` git remote set-url origin https://github.com/Anson365/xxxx.git```
+
+###设置git本项目的配置信息   
+```git config --global user.name XXXXXXX   
+   git config --global user.email XXXXXX```
