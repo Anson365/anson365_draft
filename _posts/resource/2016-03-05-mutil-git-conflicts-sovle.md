@@ -24,7 +24,9 @@ gitlab上的提交记录与账号变成了自己github上的信息。顿时一�
 4.按照配置嵌入内容
     ```  
     Host github   
-    HostName github.com   
+    HostName github.com 
+    user.name anson365
+    user.email luohua0808@gmail.com
     IdentityFile ~/.ssh/github_rsa```
     ...
    *根据具体的git进行添加*
