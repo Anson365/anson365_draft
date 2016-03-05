@@ -13,7 +13,9 @@ description: 实现spring环境下的自定义annotation
           *注意中的内容仅针对@Target(ElementType.METHOD)*
   
 ## 实现
+
 ### 思考？
+
  实现annotation，必须先捕获annotation。需要捕获annotation必须先获取具体的方法对象及Method，获取Method？反射？！！！！
  然后Spring中的反射？针对特定的场景？AOP？？！！！！
  
