@@ -55,8 +55,7 @@ $('#js-fullscreen').on('click', function() {
 });
 
 $('#mobile-avatar').on('click', function(){
-  /*test*/
-  $('#sidebar, #pjax, #icon-arrow').addClass('fadeIn');
+  $('#sidebar, #pjax, #icon-arrow').addClass('fullscreen');
 });
 
 // Pjax
