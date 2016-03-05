@@ -7,9 +7,8 @@ description: 同pc中多个不同git之间的共存
 ---
 ##背景
   git的作用和地位这里就不在赘诉了。最近笔者用公司电脑维护自己的github（下班时间， ^_^），公司用的自己的gitlab。突然发现在提交公司代码的时候
-gitlab上的提交记录与账号变成了自己github上的信息。顿时一千万个草泥马奔腾而来，被主管发现就完蛋了（疑问：git的校验机制？）。当时我打开了
-(git 常用指令及情况汇总)[http://anson666.top/2016/02/16/git-instractions-summary.html]迅速将个人信息切换成公司账号。暂时应付了过去。
-但是治标不治本，怎么样才能彻底根治这个问题呢？
+gitlab上的无法使用。顿时一千万个草泥马奔腾而来，后来发现是新增的github密钥文件将gitlab的给覆盖了，那怎样才能玩转多个git tool，同时搞定
+多个女朋友呢？
 
 ##操作
 
@@ -25,7 +24,7 @@ gitlab上的提交记录与账号变成了自己github上的信息。顿时一�
     ```  
     Host github   
     HostName github.com 
-    user.name anson365
+    User anson365
     user.email luohua0808@gmail.com
     IdentityFile ~/.ssh/github_rsa```
     ...
