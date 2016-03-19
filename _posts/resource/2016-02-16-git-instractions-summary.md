@@ -64,4 +64,8 @@ git在程序员的日常开发中承担着程序托管、发布等作用。无�
 
 ###设置git本项目的配置信息   
 ```git config --global user.name XXXXXXX   
-   git config --global user.email XXXXXX```
+   git config --global user.email XXXXXX```   
+   
+###一些关于git的比较好的介绍、资料
+  1. [https://github.com/geeeeeeeeek/git-recipes/wiki](https://github.com/geeeeeeeeek/git-recipes/wiki)
+
