@@ -20,8 +20,8 @@ url: http://anson666.top
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
-avatar: ../assets/image/web/gigante.png
-favicon: ../assets/image/web/favicon.ico
+avatar: /assets/image/web/gigante.png
+favicon: /assets/image/web/favicon.ico
 
 # google analytics 设置
 ga:
