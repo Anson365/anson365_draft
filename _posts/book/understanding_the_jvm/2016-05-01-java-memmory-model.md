@@ -6,7 +6,7 @@ tags: jvm
 description: java内存区域——《深入理解java虚拟机》
 ---
 
-![](/assets/image/web/java_vm_runtime_memmory.png)    
+![](/assets/image/web/java_vm_runtime_memory.png)    
 上图所示为java虚拟机运行时数据区：  
 
 |名称       |English                |定义                       |是否线程共享|可能的异常及类型|
