@@ -1,33 +1,24 @@
-permalink: /:year/:month/:day/:title.html
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
+permalink: blog/:year/:month/:day/:title.html
+paginate: 6
+paginate_path: page/:num
+gems: [jekyll-paginate]
 
-kramdown:
-  input: GFM
-
-# 作者信息
-author: 
-  name: Anson
-  email: actisonluo@gmail.com
-  link: http://anson666.top
-  weibo: http://weibo.com/ansonluo123
-  github: http://github.com/anson365
-
-# 站点信息
-title: Anson的博客
-description: Anson的博客
-url: http://anson666.top
-rss_url: /pages/atom.xml
-
-# avatar头像及Favicon
-avatar: /assets/image/web/gigante.png
-favicon: /assets/image/web/favicon.ico
-
-# google analytics 设置
-ga:
-  id: UA-73758103-1
-  url: http://anson666.top
-
-# disqus 设置
-disqus:
-  shortname: anson
+blog:
+    name:Anson的点滴记录                                                # 博客名称
+    description:Anson的点滴记录                                       # 博客描述
+    title:Anson                                               # 网页标题
+    url:http://www.anson666.top                                         # 博客地址
+    duoshuo:6282145894364087000                                             # 多说ID
+    tongji:                                              # 百度统计ID
+    qiniu:                                               # 七牛云地址
+author:
+    name:Anson                                                # 作者名称
+    email:luohua0808@gmail.com                                               # 邮箱地址
+    weibo:http://weibo.com/ansonluo123?is_all=1                                              # 微博地址
+    github:https://github.com/Anson365                                           # GitHub地址
+    logo:/assets/image/web/gigante.png                                                # logo地址
+    douban:
+        name:                                            # 豆瓣地址名称
+        key:                                             # 豆瓣API Key
